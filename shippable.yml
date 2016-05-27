@@ -2,7 +2,8 @@
 # Language setting
 language: python
 
-
+env:
+  - secure: gdk/ECipAhyeBFGYkwhwh/oNofdHvCUVadK2tWMSXKEEeKmbt+lRleDc8WO08c++MELjM0DU+6uR6isPl47CKtKrfK9qFu5i2agJDYa6XrWQCTYK3gXqfm5cO/oSmLlPFYkadN+SAdCy6RF9CsfY78JKQlmGGpypwo+ko4637GxkInxCs6N7AXmHDFRHksm8adIlMCczNyE4vRFMRu1naksVzM6ceAr8JliumBM7Cq8fvWjmQadpUDo+drK7TCZzlhvmxgXZ8wRJ9D+E3pW+mAax3QMyuRlFjLzEq6PcuoIaxRGiMgLs/JKjKouzGtGxVLxbvzezwcEJYmiB48SNVw==
 # Version number
 python:
   - 2.6
@@ -17,3 +18,4 @@ python:
 build:
   ci:
     - python --version
+    - echo $env1
